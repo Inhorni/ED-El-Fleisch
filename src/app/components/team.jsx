@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 function CareerSection() {
   return (
-    <section className="mt-[4rem] lg:pt-[8rem] pb-16 px-[18rem] mq-sections">
+    <section className="mt-[4rem] lg:pt-[8rem] px-8 pb-16 md:px-[18rem] mq-sections">
       {/* Aligning the title with the FAQ section */}
       <Title title="Lorem ipsum dolor " label="Team" />
       

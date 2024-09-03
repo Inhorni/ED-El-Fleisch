@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 function UberUns() {
   return (
-    <section className="mt-[4rem] lg:pt-[8rem] pb-16 px-[18rem] mq-sections">
+    <section className="mt-[4rem] lg:pt-[8rem] px-8 pb-16  mq-sections md:px-[18rem]">
       {/* Aligning the title with the FAQ section */}
       <Title title="Lorem ipsum dolor " label="About Us" />
       
