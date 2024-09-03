@@ -1,14 +1,23 @@
 "use client";
 import React from "react";
 import Title from "../title/title";
-import { motion } from "framer-motion";
+import { motion,useInView,useMotionValue,useScroll,useTransform } from "framer-motion";
 
 function CareerSection() {
   return (
     <section className="mt-[4rem] lg:pt-[8rem] px-8 pb-16 md:px-[18rem] mq-sections">
+
       {/* Aligning the title with the FAQ section */}
       <Title title="Lorem ipsum dolor " label="Team" />
-      
+      <motion.div
+          initial={{ opacity: 0, x: -50 }}
+          animate={{ x: -1000 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1 }}
+
+          viewport={{ once: true }}
+          className="space-y-8"
+        >
       <div className="mt-[5rem] flex flex-col md:flex-row items-center justify-between gap-8">
         {/* Text Content */}
         <div className="md:w-1/2">
@@ -49,8 +58,10 @@ function CareerSection() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
           />
+          
         </div>
       </div>
+      </motion.div>
     </section>
   );
 }

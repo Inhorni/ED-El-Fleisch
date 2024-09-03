@@ -7,8 +7,17 @@ function UberUns() {
   return (
     <section className="mt-[4rem] lg:pt-[8rem] px-8 pb-16  mq-sections md:px-[18rem]">
       {/* Aligning the title with the FAQ section */}
-      <Title title="Lorem ipsum dolor " label="About Us" />
       
+      <Title title="Lorem ipsum dolor " label="About Us" />
+      <motion.div
+          initial={{ opacity: 0, x: -50 }}
+          animate={{ x: 1000 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1 }}
+
+          viewport={{ once: true }}
+          className="space-y-8"
+        >
       <div className="mt-[5rem] flex flex-col md:flex-row items-center justify-between gap-8">
         {/* Image */}
         <div className="md:w-1/2 flex justify-center">
@@ -51,6 +60,7 @@ function UberUns() {
           </motion.button>
         </div>
       </div>
+      </motion.div>
     </section>
   );
 }
