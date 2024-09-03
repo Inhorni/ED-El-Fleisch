@@ -29,19 +29,28 @@ const services = [
       "Guaranteed results",
     ],
   },
+  {
+    icon: "",
+    title: "Card Three",
+    bulletPoints: [
+      "Expert technicians",
+      "Comprehensive service",
+      "Guaranteed results",
+    ],
+  },
   // Add more services as needed
 ];
 
 function Service() {
   return (
-    <section className="mt-[4rem] lg:pt-[8rem] pb-16 px-[18rem] mq-sections">
+    <section className="mt-[4rem] lg:pt-[8rem] px-4 pb-16 mq-sections md:px-[18rem]">
       <Title title="Lorem ipsum dolor sit amet" label="Our Services" />
-      <div className="mt-[5rem] grid grid-cols-1 xl:grid-cols-3 gap-6 md:grid-cols-2">
+      <div className="flex flex-wrap mt-[5rem] flex-col gap-8 items-center w-full justify-between md:flex-row">
         {services.map((service, index) => {
           return (
             <div
               key={index}
-              className="relative p-10 flex flex-col text-white border border-colour-1 rounded-xl"
+              className="relative p-10 flex flex-col  text-white border border-colour-1 rounded-xl md:w-1/5"
             >
               <div className="bg-2 self-start w-[5rem] h-[5rem] flex justify-center items-center rounded-xl border-2 border-colour-2 shadow-sm">
                 <span className="text-5xl text-gray-300">{service.icon}</span>
