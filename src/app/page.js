@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Hero from "./components/hero.jsx"
 import Service from "./components/service.jsx"
 import Kontakt from "./components/contact.jsx"
