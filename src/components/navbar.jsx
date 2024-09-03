@@ -7,10 +7,10 @@ const Navbar = () => {
         {/* Left side menu */}
         <ul className="flex space-x-8 text-white">
           <li className="hover:text-orange-500">
-            <a href="#home">Start</a>
+            <a href="/">Start</a>
           </li>
           <li className="hover:text-orange-500">
-            <a href="#angebot">Angebot</a>
+            <a href="/produktpalette">Angebot</a>
           </li>
           <li className="hover:text-orange-500">
             <a href="#zutaten">Zutaten</a>
