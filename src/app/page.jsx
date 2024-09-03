@@ -6,13 +6,11 @@ import Team from "../components/team.jsx"
 import UberUns from "../components/uberuns.jsx";
 import Footer from "../components/footer.jsx"
 import Navbar from "../components/navbar.jsx"
-import Submenu from "../components/submenu.jsx"
 
 export default function Home() {
   return (
     <div>
         <Navbar/>
-        <Submenu/>
          <Hero/>
          <Service/>
          <UberUns/>
