@@ -4,7 +4,7 @@ import Kontakt from "./components/contact.jsx"
 import FaqSection from "./components/faq.jsx"
 import Team from "./components/team.jsx"
 import UberUns from "./components/uberuns.jsx";
-
+import Footer from "./components/footer.jsx"
 export default function Home() {
   return (
     <div>
@@ -14,6 +14,7 @@ export default function Home() {
          <Team/>
          <FaqSection/>
          <Kontakt/>
+         <Footer/>
     </div>
 
 
