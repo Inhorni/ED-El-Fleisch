@@ -1,3 +1,5 @@
+
+
 "use client";
 import React from "react";
 import Title from "../title/title";
@@ -31,7 +33,7 @@ function FaqSection() {
     };
 
     return (
-        <section className="mt-[4rem] lg:pt-[8rem] px-4 pb-16  mq-sections md:px-[18rem]">
+        <section className="mt-[4rem] lg:pt-[8rem] px-8 pb-16  mq-sections md:px-[18rem]">
             <Title title="Oft Gefragte Fragen" label="FAQ" />
             <div className="mt-[5rem] grid grid-cols-1 md:grid-cols-2 gap-8">
                 {faqs.map((faq, index) => {

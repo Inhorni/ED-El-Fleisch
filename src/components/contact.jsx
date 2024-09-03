@@ -2,44 +2,50 @@ import React from 'react';
 
 const Kontakt = () => {
   return (
-    <div className="bg-black text-white p-8">
-      <div className="max-w-4xl mx-auto">
-        {/* Main Contact Section */}
-        <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4">Kontaktiere Uns</h2>
-          <p className="text-lg mb-6">
-          At vero e At vero e s et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    <div className="relative  text-white py-20 px-8 mt-[8rem]">
+      {/* Main Container */}
+      <div className="container mx-auto space-y-16">
+
+        {/* Header Section */}
+        <div className="text-center mb-12 animate-fade-in-down">
+          <h2 className="text-4xl font-extrabold mb-4">Get in Touch with Us</h2>
+          <p className="text-lg max-w-2xl mx-auto opacity-80">
+            We are here to assist you. Reach out to us through any of the following ways, and we will get back to you as soon as possible.
           </p>
-          <div className="mb-8">
-            <p>
-              <strong>Telefon:</strong> 1 (232) 252 55 22
-            </p>
-            <p>
-              <strong>Adresse:</strong> 75 Street Sample, WI 63025
-            </p>
-            <p>
-              <strong>E-Mail:</strong> <a href="mailto:template@sample.com" className="text-blue-500">template@sample.com</a>
-            </p>
+        </div>
+
+        {/* Contact Information */}
+        <div className="flex flex-col md:flex-row justify-around items-center space-y-8 md:space-y-0 animate-slide-in-left">
+          <div className="text-center">
+            <h3 className="text-2xl font-semibold mb-2">Call Us</h3>
+            <p className="text-base">1 (232) 252 55 22</p>
+          </div>
+          <div className="text-center">
+            <h3 className="text-2xl font-semibold mb-2">Visit Us</h3>
+            <p className="text-base">75 Street Sample, WI 63025</p>
+          </div>
+          <div className="text-center">
+            <h3 className="text-2xl font-semibold mb-2">Email Us</h3>
+            <a href="mailto:template@sample.com" className="text-base text-blue-400 hover:underline">template@sample.com</a>
           </div>
         </div>
 
-        {/* Image Section */}
-{/* Google Maps Section */}
-<div className="flex justify-center mb-12">
-  <div className="w-72 h-72 md:w-96 md:h-96 rounded-lg overflow-hidden bg-gray-200 flex items-center justify-center">
-    <iframe
-      src="https://www.google.com/maps/embed/v1/place?q=Ed-el+fleisch&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
-      width="100%"
-      height="100%"
-      style={{ border: 0 }}
-      allowFullScreen=""
-      loading="lazy"
-      referrerPolicy="no-referrer-when-downgrade"
-      title="Google Maps Location"
-    ></iframe>
-  </div>
-</div>
+        {/* Google Maps Section */}
+        <div className="relative group overflow-hidden rounded-xl shadow-lg animate-fade-in-up">
+        
+          <iframe
+            src="https://www.google.com/maps/embed/v1/place?q=Ed-el+fleisch&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+            className="w-full h-96 rounded-xl"
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            title="Google Maps Location"
+          ></iframe>
+        </div>
 
+        {/* Footer Decorative Element */}
+        <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-black via-transparent to-transparent pointer-events-none"></div>
       </div>
     </div>
   );
