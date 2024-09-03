@@ -1,6 +1,6 @@
 import React from "react";
 
-const Hero = () => {
+function Hero () {
   return (
     <div
       className="flex min-h-screen bg-center bg-cover hero"
@@ -29,7 +29,7 @@ const Hero = () => {
         <div className="mt-4">
           <button
             type="button"
-            className="animate__animated animate__fadeIn animate__slower text-white bg-orange-600 hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:focus:ring-yellow-900"
+            className="bg-orange-600 text-white py-3 px-6 rounded-md text-lg font-bold hover:bg-red-700 transition"
           >
             Unser Angebot
           </button>
