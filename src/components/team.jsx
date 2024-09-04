@@ -39,13 +39,6 @@ function CareerSection() {
           <p className="text-lg mb-6 text-gray-300">
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
           </p>
-          <motion.button
-            className="bg-orange-600 text-white py-3 px-6 rounded-md text-lg font-bold hover:bg-red-700 transition"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            Jetzt Bewerben
-          </motion.button>
         </div>
 
         {/* Image */}
