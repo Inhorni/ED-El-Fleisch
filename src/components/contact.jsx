@@ -17,7 +17,7 @@ const Kontakt = () => {
           viewport={{ once: true }}
           className="space-y-8"
         >
-          <Title title="Kontaktieren sie uns" label="FAQ" />
+          <Title title="Kontaktieren sie uns" label="Contact" />
           <p className="text-lg opacity-70 max-w-md">
             We are ready to assist you. Find us through any of the methods below.
           </p>
