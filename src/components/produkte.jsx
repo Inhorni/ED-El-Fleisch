@@ -1,10 +1,19 @@
+"use client";
 import React from 'react';
 import Title from "../title/title";
+import { motion } from "framer-motion";
+
 
 const AnimalSelection = () => {
   return (
     <section className="mt-[4rem] lg:pt-[8rem] px-8 pb-16 md:px-[18rem] mq-sections">
         <Title title="Unser Sortiment " label="Sinnersmeat" />
+        <motion.div 
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.1, margin: "200px", }}
+              transition={{ duration: 1, ease: "easeOut" }}
+        >
            <div className="bg-black text-white p-8">
       <div className="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-8">
         
@@ -64,8 +73,8 @@ const AnimalSelection = () => {
         </div>
       </div>
     </div>
+    </motion.div>
     </section>
- 
   );
 };
 

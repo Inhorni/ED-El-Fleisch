@@ -39,7 +39,7 @@ function Service() {
               className="relative p-10 flex flex-col text-white border border-colour-1 rounded-xl md:w-1/5"
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.1, margin: "100px", }}
+              viewport={{ once: true, amount: 0.1, margin: "200px", }}
               transition={{ duration: 1.5, delay: index * 0.1, ease: "easeOut" }}
             >
               <div className="bg-2 self-start w-[5rem] h-[5rem] flex justify-center items-center rounded-xl border-2 border-colour-2 shadow-sm">
@@ -58,12 +58,6 @@ function Service() {
                   })}
                 </ul>
               </div>
-              <span
-                className="absolute top-0 left-0 bg-2 text-3xl font-semibold p-2 rounded-tr-[30px] rounded-bl-[30px] 
-                    translate-x-[-50%] translate-y-[-50%]"
-              >
-                {index + 1}
-              </span>
             </motion.div>
           );
         })}
