@@ -40,7 +40,9 @@ export default function ProductPage({ selectedMeatType }) {
   ];
 
   const filteredProducts = products.filter((product) => {
-    if (selectedMeatType) {
+    if (selectedMeatType === 'Alle') {
+      return product.name.toLowerCase().includes(searchTerm.toLowerCase());
+    } else if (selectedMeatType) {
       return product.meatType === selectedMeatType && product.name.toLowerCase().includes(searchTerm.toLowerCase());
     }
     return product.name.toLowerCase().includes(searchTerm.toLowerCase());
