@@ -30,7 +30,7 @@ const services = [
 function Service() {
   return (
     <section className="mt-[4rem] lg:pt-[8rem] px-4 pb-16 mq-sections md:px-[18rem]">
-      <Title title="Lorem ipsum dolor sit amet" label="Our Services" />
+      <Title title="Lorem ipsum dolor sit amet" label="Unser Service" />
       <div className="flex flex-wrap mt-[5rem] flex-col gap-8 items-center w-full justify-between md:flex-row">
         {services.map((service, index) => {
           return (
