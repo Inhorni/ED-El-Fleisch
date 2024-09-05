@@ -1,12 +1,13 @@
 "use client"
 import React from "react";
+import FleischBR from '../assets/FleischBR.png';
 import { motion } from "framer-motion";
 
 function Hero() {
   return (
     <div
       className="flex min-h-screen bg-center bg-cover hero"
-      style={{ backgroundImage: "url('imgs/heroinsection.png')" }}
+      style={{ backgroundImage: `url(${FleischBR.src})` }}
     >
       <div className="self-center text-center text-white mx-auto px-4 md:px-8 max-w-3xl">
         <motion.div 
