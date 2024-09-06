@@ -1,5 +1,5 @@
 "use client";
-import ProductPage from "@/components/produktpallette.jsx"
+import ProductPage from "@/components/produktpalette/produktpallette.jsx"
 import Footer from "@/components/footer.jsx"
 import Navbar from "@/components/navbar.jsx"
 import Submenu from "@/components/submenu.jsx"

@@ -1,6 +1,6 @@
 "use client";
 import { useState } from 'react';
-import placeholder from '../assets/placeholder1.png';
+import placeholder from '@/assets/placeholder1.png';
 export default function ProductPage({ selectedMeatType }) {
   const [searchTerm, setSearchTerm] = useState('');
 

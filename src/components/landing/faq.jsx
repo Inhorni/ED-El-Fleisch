@@ -2,7 +2,7 @@
 
 "use client";
 import React from "react";
-import Title from "../title/title";
+import Title from "@/title/title";
 import { motion } from "framer-motion";
 
 const faqs = [

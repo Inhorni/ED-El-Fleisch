@@ -1,12 +1,12 @@
-import Hero from "../components/hero.jsx"
-import Service from "../components/service.jsx"
-import Kontakt from "../components/contact.jsx"
-import FaqSection from "../components/faq.jsx"
-import Team from "../components/team.jsx"
-import UberUns from "../components/uberuns.jsx";
+import Hero from "../components/landing/hero.jsx"
+import Service from "../components/landing/service.jsx"
+import Kontakt from "../components/landing/contact.jsx"
+import FaqSection from "../components/landing/faq.jsx"
+import Team from "../components/landing/team.jsx"
+import UberUns from "../components/landing/uberuns.jsx";
 import Footer from "../components/footer.jsx"
 import Navbar from "../components/navbar.jsx"
-import Product from "@/components/produkte.jsx"
+import Product from "@/components/landing/produkte.jsx"
 
 export default function Home() {
   return (

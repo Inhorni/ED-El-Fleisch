@@ -1,6 +1,6 @@
 "use client"
 import React from "react";
-import FleischBR from '../assets/FleischBR.png';
+import FleischBR from '@/assets/FleischBR.png';
 import { motion } from "framer-motion";
 
 function Hero() {

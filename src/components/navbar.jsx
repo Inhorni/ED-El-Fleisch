@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import placeholder from '../assets/monkeoogoog.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,11 +30,11 @@ const Navbar = () => {
 
         {/* Centered logo */}
         <div className="absolute left-1/2 transform -translate-x-1/2">
-          <div className="rounded-full border border-white p-2">
+          <div className="p-2 pt-[100px]">
             <img
-              src="https://example.com/logo.png" // Replace with your logo
+              src={placeholder.src} // Replace with your logo
               alt="Logo"
-              className="h-8 w-8"
+              className="h-18 w-[120px]"
             />
           </div>
         </div>
