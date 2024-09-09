@@ -11,8 +11,15 @@ const footer = () => {
                 <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">ED-EL Großschlachterei</span>
             </a>
             <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                
                 <li>
-                    <a href="#" class="hover:underline me-4 md:me-6">Contact</a>
+                <a href="#" class="hover:underline me-4 md:me-6">AGB</a>
+                </li>
+                <li>
+                <a href="#" class="hover:underline me-4 md:me-6">Datenschutz</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:underline me-4 md:me-6">Kontakt</a>
                 </li>
                 <li>
                     <a href="#" class="hover:underline me-4 md:me-6">Impressum</a>
