@@ -2,13 +2,14 @@
 import React from "react";
 import Title from "@/title/title";
 import { motion } from "framer-motion";
+import ganyu from "@/assets/ganya.png"
 
 function UberUns() {
   return (
     <section className="mt-[4rem] lg:pt-[8rem] px-8 pb-16  mq-sections md:px-[18rem]">
       {/* Aligning the title with the FAQ section */}
       
-      <Title title="Lorem ipsum dolor " label="About Us" />
+      <Title title="Über uns" label="About Us" />
       <motion.div
           initial={{ opacity: 0, x: -50 }}
           animate={{ x: 1000 }}
@@ -22,7 +23,7 @@ function UberUns() {
         {/* Image */}
         <div className="md:w-1/2 flex justify-center">
           <motion.img
-            src="/path-to-your-image.png"
+            src={ganyu.src}
             alt="Team Image"
             className="rounded-lg shadow-lg"
             initial={{ opacity: 0, scale: 0.9 }}

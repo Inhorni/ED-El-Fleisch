@@ -23,7 +23,5 @@ export default function Home() {
          <Kontakt/>
          <Footer/>
     </div>
-
-
   );
 }

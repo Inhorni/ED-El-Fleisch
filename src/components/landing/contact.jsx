@@ -17,19 +17,20 @@ const Kontakt = () => {
           viewport={{ once: true }}
           className="space-y-8"
         >
-          <Title title="Kontaktieren sie uns" label="Contact" />
+          <Title title="Kontaktieren sie uns" label="Kontakt"/>
           <p className="text-lg opacity-70 max-w-md">
-            We are ready to assist you. Find us through any of the methods below.
+          Gerne stehen wir Ihnen für Rückfragen und Anfragen zur Verfügung.
+
           </p>
 
           <div className="space-y-6 mt-80">
             <div>
-              <h3 className="text-xl font-semibold mb-1">Call Us</h3>
-              <p className="text-lg opacity-80">1 (232) 252 55 22</p>
+              <h3 className="text-xl font-semibold mb-1">Telefon</h3>
+              <p className="text-lg opacity-80">+492661 5982</p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold mb-1">Visit Us</h3>
-              <p className="text-lg opacity-80">75 Street Sample, WI 63025</p>
+              <h3 className="text-xl font-semibold mb-1">Adresse</h3>
+              <p className="text-lg opacity-80">Hauptstraße 4, 57520 Neunkhausen</p>
             </div>
             <div>
               <h3 className="text-xl font-semibold mb-1">Email Us</h3>

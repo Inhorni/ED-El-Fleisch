@@ -2,13 +2,14 @@
 import React from "react";
 import Title from "@//title/title";
 import { motion,useInView,useMotionValue,useScroll,useTransform } from "framer-motion";
+import team from '@/assets/team.jpeg';
 
 function CareerSection() {
   return (
     <section className="mt-[4rem] lg:pt-[8rem] px-8 pb-16 md:px-[18rem] mq-sections">
 
       {/* Aligning the title with the FAQ section */}
-      <Title title="Lorem ipsum dolor " label="Team" />
+      <Title title="Über unser Team" label="Team" />
       <motion.div
           initial={{ opacity: 0, x: -50 }}
           animate={{ x: -1000 }}
@@ -44,7 +45,7 @@ function CareerSection() {
         {/* Image */}
         <div className="md:w-1/2 flex justify-center">
           <motion.img
-            src="/path-to-your-image.png"
+            src={team.src}
             alt="Team Image"
             className="rounded-lg shadow-lg"
             initial={{ opacity: 0, scale: 0.9 }}

@@ -5,23 +5,18 @@ import { motion } from "framer-motion";
 
 const services = [
   {
-    icon: "", // Example icon, you can use an actual icon component if needed
+    icon: "💡", // Example icon, you can use an actual icon component if needed
     title: "Card One",
     bulletPoints: ["High-quality service", "Professional team", "Affordable pricing"],
   },
   {
-    icon: "",
+    icon: "📦",
     title: "Card Two",
     bulletPoints: ["Fast delivery", "Reliable support", "Customer satisfaction"],
   },
   {
-    icon: "",
+    icon: "💕",
     title: "Card Three",
-    bulletPoints: ["Expert technicians", "Comprehensive service", "Guaranteed results"],
-  },
-  {
-    icon: "",
-    title: "Card Four",
     bulletPoints: ["Expert technicians", "Comprehensive service", "Guaranteed results"],
   },
   // Add more services as needed
