@@ -18,13 +18,13 @@ const Navbar = () => {
             <a href="/">Start</a>
           </li>
           <li className="hover:text-orange-500">
-            <a href="/produktpalette">Angebot</a>
+            <a href="/produktpalette">Produktpalette</a>
           </li>
           <li className="hover:text-orange-500">
-            <a href="#zutaten">Zutaten</a>
+            <a href="#zutaten">Gewürze</a>
           </li>
           <li className="hover:text-orange-500">
-            <a href="#standort">Standort</a>
+            <a href="#standort">Lieferanten</a>
           </li>
         </ul>
 
@@ -81,16 +81,16 @@ const Navbar = () => {
             <a href="/">Start</a>
           </li>
           <li className="hover:text-orange-500">
-            <a href="/produktpalette">Angebot</a>
+            <a href="/produktpalette">Produktpalette</a>
           </li>
           <li className="hover:text-orange-500">
-            <a href="#zutaten">Zutaten</a>
+            <a href="#zutaten">Gewürze</a>
           </li>
           <li className="hover:text-orange-500">
-            <a href="#standort">Standort</a>
+            <a href="#standort">Lieferant</a>
           </li>
           <li className="hover:text-orange-500">
-            <a href="#ueber-uns">Über uns</a>
+            <a href="#ueber-uns">Kontakt</a>
           </li>
         </ul>
       </motion.div>
