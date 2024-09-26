@@ -34,23 +34,25 @@ function UberUns() {
 
         {/* Text Content */}
         <div className="md:w-1/2">
-          <p className="text-lg mb-4 text-gray-300">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmodLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+          <p className="text-lg mb-4 text-white">
+          In unserem Fleischgroßhandel dreht sich alles um hochwertige Produkte, traditionellen Handwerkskunst und vor allem dem freundlichen Umgang miteinander in
+          unserem Team. 
           </p>
-          <p className="text-lg mb-4 text-gray-300">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+          <p className="text-lg mb-4 text-white">
+          Die Arbeit unseres Teams, ist nicht einfach nur Arbeit, sondern viel eher eine leidenschaft und ein Hobby.
           </p>
-          <p className="font-bold text-lg mb-6 text-gray-300">
-            Dann freuen wir uns auf dich!
+          <p className="font-bold text-lg mb-6 text-white">
+          Das solltet ihr über uns wissen:
           </p>
-          <p className="text-lg mb-4 text-gray-300">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+          <p className="text-lg mb-4 text-white">
+          Dies ist ein Fleischgroßhandel und keine Metzgerei, was bedeutet dass sie bei uns keine wurst erwerben können.
           </p>
-          <p className="text-lg mb-4 text-gray-300">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmodLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmodLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+          <p className="text-lg mb-4 text-white">
+          Dafür erwartet Sie aber umso besseres Fleisch und wir können individuell auf Ihre wünsche eingehen. Gerne können Sie sich auch. vor
+          Ort von der Qualität unserer Produkte überzeugen
           </p>
-          <p className="text-lg mb-6 text-gray-300">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+          <p className="text-lg mb-6 text-white">
+          ED-EL Fleisch- Fleisch, was in Erinnerung bleibt. wir freuen uns auf Ihren Besuch oder Bestellung?
           </p>
           <motion.button
             className="bg-orange-600 text-white py-3 px-6 rounded-md text-lg font-bold hover:bg-red-700 transition"

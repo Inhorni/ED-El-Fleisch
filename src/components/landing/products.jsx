@@ -2,6 +2,8 @@
 import React from 'react';
 import Title from "@/title/title";
 import { motion } from "framer-motion";
+import cow from '@/assets/iconcow.png';
+import pig from '@/assets/iconpig.png';
 
 
 const AnimalSelection = () => {
@@ -22,11 +24,11 @@ const AnimalSelection = () => {
           {/* Image Container */}
           <div className="relative cursor-pointer hover:scale-105 transition-transform duration-300 ease-in-out">
             <div className="w-full md:w-72 h-72 bg-transparent flex items-center justify-center rounded-md overflow-hidden">
-              <img src="path_to_cow_image.png" alt="Rind" className="object-cover w-full h-full" />
+              <img src={cow.src} alt="Rind" className="object-cover w-full h-full" />
             </div>
             {/* Logo Overlay */}
             <div className="absolute inset-0 flex justify-center items-center">
-              <span className="bg-transparent text-4xl font-bold">🐄</span> {/* Replace 🐄 with your actual logo */}
+              <span className="bg-transparent text-4xl font-bold"></span> {/* Replace 🐄 with your actual logo */}
             </div>
           </div>
           {/* Text Below Image */}
@@ -40,35 +42,16 @@ const AnimalSelection = () => {
           {/* Image Container */}
           <div className="relative cursor-pointer hover:scale-105 transition-transform duration-300 ease-in-out">
             <div className="w-full md:w-72 h-72 bg-transparent flex items-center justify-center rounded-md overflow-hidden">
-              <img src="path_to_pig_image.png" alt="Schwein" className="object-cover w-full h-full" />
+              <img src={pig.src} alt="Schwein" className="object-cover w-full h-full" />
             </div>
             {/* Logo Overlay */}
             <div className="absolute inset-0 flex justify-center items-center">
-              <span className="bg-transparent text-4xl font-bold">🐖</span> {/* Replace 🐖 with your actual logo */}
+              <span className="bg-transparent text-4xl font-bold"></span> {/* Replace 🐖 with your actual logo */}
             </div>
           </div>
           {/* Text Below Image */}
           <div className="text-center">
             <h3 className="text-2xl md:text-3xl font-bold">SCHWEIN</h3>
-          </div>
-        </div>
-
-        {/* Kalb(MÄÄÄÄÄH) Section */}
-        <div className="flex flex-col items-center space-y-4">
-          {/* Image Container */}
-          <div className="relative cursor-pointer hover:scale-105 transition-transform duration-300 ease-in-out">
-            <div className="w-full md:w-72 h-72 bg-transparent flex items-center justify-center rounded-md overflow-hidden">
-              <img src="path_to_pig_image.png" alt="Kalb.png" className="object-cover w-full h-full" />
-            </div>
-            {/* Logo Overlay */}
-            <div className="absolute inset-0 flex justify-center items-center">
-              <span className="bg-transparent text-4xl font-bold">🐐</span> {/* Replace 🐐 with your actual logo */}
-            </div>
-          </div>
-          {/* Text Below Image */}
-          <div className="text-center">
-            <h3 className="text-2xl md:text-3xl font-bold">Kalb</h3>
-            <p>Nach Absprache</p>
           </div>
         </div>
       </div>
