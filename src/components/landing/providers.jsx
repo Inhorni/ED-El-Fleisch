@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const Provider = () => {
   return (
-    <section className="mt-[4rem] lg:pt-[8rem] px-8 pb-16 md:px-[18rem] mq-sections">
+    <section className="mt-[4rem] lg:pt-[8rem] px-8 pb-16 md:px-[18rem]  mq-sections">
         <Title title="Unsere Liefersklaven " label="Meatdeliveryslaves" />
         <motion.div 
               initial={{ opacity: 0, y: 30 }}
@@ -14,7 +14,7 @@ const Provider = () => {
               viewport={{ once: true, amount: 0.1, margin: "200px", }}
               transition={{ duration: 1, ease: "easeOut" }}
         >
-           <div className="bg-black text-white p-8">
+           <div className="bg-[#081827] text-white p-8">
       <div className="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-8">
         
         {/* Rind (MUUUUUUUUh) Section */}

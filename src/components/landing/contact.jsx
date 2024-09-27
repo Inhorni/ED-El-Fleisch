@@ -18,7 +18,7 @@ const Kontakt = () => {
           className="space-y-8"
         >
           <Title title="Kontaktieren sie uns" label="Kontakt"/>
-          <p className="text-lg opacity-70 max-w-md">
+          <p className="text-lg max-w-md">
           Gerne stehen wir Ihnen für Rückfragen und Anfragen zur Verfügung.
 
           </p>

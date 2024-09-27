@@ -17,12 +17,13 @@ function Hero() {
           transition={{ duration: 1, ease: "easeOut" }}
         >
           <motion.h1 
-            className="text-6xl font-extrabold"
+            className="text-6xl font-extrabold text-red-100"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1.5, ease: "easeOut" }}
           >
             ED-El Fleisch
+            <hr />
           </motion.h1>
         </motion.div>
 
@@ -31,11 +32,8 @@ function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5, ease: "easeOut" }}
         >
-          <p className="text-xl">
-            Wir verwenden nur natürliche und frische Zutaten. Unser Fleisch
-            wird frisch von denselbst angepflanzten Bäumen gepflückt und
-            anschließend sorgfältig gewaschen, bevor es dann mit frischen
-            Tieren gewürzt wird.
+          <p className="text-[2rem]">
+            Das Fleisch das eine <span className="text-red-600">Sünde</span> wert ist.
           </p>
         </motion.div>
 

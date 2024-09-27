@@ -40,7 +40,7 @@ function FaqSection() {
                     return (
                         <motion.div
                             key={index}
-                            className="py-4 px-6 bg-2 flex flex-col gap-2 rounded-md border-2 border-colour-2 shadow-sm"
+                            className="py-4 px-6 bg-2 flex flex-col gap-2 rounded-md border-2 border-orange-600 shadow-sm"
                             initial={{ opacity: 0, scale: 0.9 }}
                             animate={{ opacity: 1, scale: 1 }}
                             transition={{ duration: 0.5 }}
@@ -62,6 +62,7 @@ function FaqSection() {
                                 </motion.span>
                             </motion.div>
                             <motion.div
+                                className="text-white"
                                 initial={{ opacity: 0, height: 0 }}
                                 animate={{
                                     height: activeIndex === index ? "auto" : 0,

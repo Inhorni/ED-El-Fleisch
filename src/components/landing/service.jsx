@@ -31,13 +31,13 @@ function Service() {
           return (
             <motion.div
               key={index}
-              className="relative p-10 flex flex-col text-white border border-colour-1 rounded-xl md:w-1/5"
+              className="relative p-10 flex flex-col text-white border border-orange-600 rounded-xl md:w-1/5"
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.1, margin: "200px", }}
               transition={{ duration: 1.5, delay: index * 0.1, ease: "easeOut" }}
             >
-              <div className="bg-2 self-start w-[5rem] h-[5rem] flex justify-center items-center rounded-xl border-2 border-colour-2 shadow-sm">
+              <div className="bg-2 self-start w-[5rem] h-[5rem] flex justify-center items-center rounded-xl  shadow-sm">
                 <span className="text-5xl text-gray-300">{service.icon}</span>
               </div>
               <div>

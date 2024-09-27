@@ -6,13 +6,13 @@ import ganyu from "@/assets/ganya.png"
 
 function UberUns() {
   return (
-    <section className="mt-[4rem] lg:pt-[8rem] px-8 pb-16  mq-sections md:px-[18rem]">
+    <section className="mt-[4rem] lg:pt-[8rem] px-8 pb-16 mq-sections md:px-[18rem]">
       {/* Aligning the title with the FAQ section */}
       
       <Title title="Über uns" label="About Us" />
       <motion.div
           initial={{ opacity: 0, x: -50 }}
-          animate={{ x: 1000 }}
+          animate={{ x: -1000 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
 
