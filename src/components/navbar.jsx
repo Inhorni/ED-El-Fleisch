@@ -10,27 +10,30 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="bg-orange-600 p-4 absolute w-full items-center">
+    <nav className="bg-red-700 p-4 absolute w-full items-center">
       <div className="container mx-auto flex justify-between items-center relative">
         {/* Left side menu for desktop */}
         <ul className="hidden md:flex space-x-8 text-white">
-          <li className="hover:text-orange-500">
+          <li className="hover:text-black">
             <a href="/">Start</a>
           </li>
-          <li className="hover:text-orange-500">
-            <a href="/produktpalette">Produktpalette</a>
+          <li className="hover:text-black">
+            <a href="/qualitat">Qualität</a>
           </li>
-          <li className="hover:text-orange-500">
+          <li className="hover:text-black">
+            <a href="/produktpalette">Produkte</a>
+          </li>
+          <li className="hover:text-black">
             <a href="/gewurze">Gewürze</a>
           </li>
-          <li className="hover:text-orange-500">
+          <li className="hover:text-black">
             <a href="#standort">Lieferanten</a>
           </li>
         </ul>
 
         {/* Centered logo */}
         <div className="absolute left-1/2 transform -translate-x-1/2">
-          <div className="p-2 pt-[100px] bg-orange-600 bg-clip-content">
+          <div className="p-2 pt-[100px] bg-red-700 bg-clip-content">
             <img
               src={placeholder.src} // Replace with your logo
               alt="Logo"
@@ -41,7 +44,7 @@ const Navbar = () => {
 
         {/* Right side menu for desktop */}
         <ul className="hidden md:flex space-x-8 text-white ml-auto">
-          <li className="hover:text-orange-500">
+          <li className="hover:text-black">
             <a href="#ueber-uns">Über uns</a>
           </li>
         </ul>
@@ -77,19 +80,22 @@ const Navbar = () => {
         transition={{ duration: 0.3 }}
       >
         <ul className="flex flex-col space-y-4 text-white p-4 bg-black">
-          <li className="hover:text-orange-500">
+          <li className="hover:text-black">
             <a href="/">Start</a>
           </li>
-          <li className="hover:text-orange-500">
-            <a href="/produktpalette">Produktpalette</a>
+          <li className="hover:text-black">
+            <a href="/produktpalette">Qualität</a>
           </li>
-          <li className="hover:text-orange-500">
+          <li className="hover:text-black">
+            <a href="/produktpalette">Produkte</a>
+          </li>
+          <li className="hover:text-black">
             <a href="#zutaten">Gewürze</a>
           </li>
-          <li className="hover:text-orange-500">
+          <li className="hover:text-black">
             <a href="#standort">Lieferant</a>
           </li>
-          <li className="hover:text-orange-500">
+          <li className="hover:text-black">
             <a href="#ueber-uns">Kontakt</a>
           </li>
         </ul>
