@@ -17,7 +17,7 @@ function Hero() {
           transition={{ duration: 1, ease: "easeOut" }}
         >
           <motion.h1 
-            className="text-6xl font-extrabold text-red-100"
+            className="text-6xl font-extrabold text-yellow-100"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1.5, ease: "easeOut" }}
@@ -33,7 +33,7 @@ function Hero() {
           transition={{ duration: 1, delay: 0.5, ease: "easeOut" }}
         >
           <p className="text-[2rem]">
-            Das Fleisch das eine <span className="text-red-700">Sünde</span> wert ist.
+           
           </p>
         </motion.div>
 
@@ -45,7 +45,7 @@ function Hero() {
         >
           <button
             type="button"
-            className="bg-red-700 text-white py-3 px-6 rounded-md text-lg font-bold hover:bg-black transition"
+            className="bg-yellow-600 text-white py-3 px-6 rounded-md text-lg font-bold hover:bg-black transition"
           >
             Unser Angebot
           </button>

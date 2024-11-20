@@ -14,11 +14,9 @@ export default function Home() {
     <div>
         <Navbar/>
          <Hero/>
-         <Product/>
          <Service/>
          <UberUns/>
          <Team/>
-         <Provider/>
          <FaqSection/>
          <Kontakt/>
          <Footer/>

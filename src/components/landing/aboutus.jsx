@@ -52,15 +52,8 @@ function UberUns() {
           Ort von der Qualität unserer Produkte überzeugen
           </p>
           <p className="text-lg mb-6 text-white">
-          ED-EL Fleisch- Fleisch, was in Erinnerung bleibt. wir freuen uns auf Ihren Besuch oder Bestellung?
+          ED-EL Fleisch- Fleisch, was in Erinnerung bleibt. wir freuen uns auf Ihren Besuch oder Bestellung !
           </p>
-          <motion.button
-            className="bg-orange-600 text-white py-3 px-6 rounded-md text-lg font-bold hover:bg-red-700 transition"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            Mehr Erfahren
-          </motion.button>
         </div>
       </div>
       </motion.div>

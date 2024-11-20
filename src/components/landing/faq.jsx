@@ -7,8 +7,8 @@ import { motion } from "framer-motion";
 
 const faqs = [
   {
-    question: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod",
-    answer: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod"
+    question: "Welche Kundengruppen beliefern wir ?",
+    answer: "Gastronomen und Metzgerein"
   },
   {
     question: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod",

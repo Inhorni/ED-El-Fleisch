@@ -20,7 +20,24 @@ const impressum = () => {
         <div className="space-y-6 mt-80">
           <div>
             <h3 className="text-xl font-semibold mb-1">Telefon</h3>
-            <p className="text-lg opacity-80">+492661 5982</p>
+            <p className="text-lg opacity-80">+49 2661 63031</p>
+          </div>
+          <div>
+            <h3 className="text-xl font-semibold mb-1">E-Mail</h3>
+            <p className="text-lg opacity-80">info@ed-el-fleisch.de</p>
+          </div>
+          <div>
+            <h3 className="text-xl font-semibold mb-1">Registernummer</h3>
+            <p className="text-lg opacity-80">HRB 3701</p>
+          </div>
+          <div>
+            <h3 className="text-xl font-semibold mb-1">Amtesgericht</h3>
+            <p className="text-lg opacity-80">56410 Montabaur</p>
+          </div>
+          <div>
+            <h3 className="text-xl font-semibold mb-1">Branche</h3>
+            <p className="text-lg opacity-80">Hauptbranche: Großhandel mit Fleisch und Fleischwaren</p>
+            <p className="text-lg opacity-80">Branchencode: 46.32.0</p>
           </div>
           <div>
             <h3 className="text-xl font-semibold mb-1">Adresse</h3>

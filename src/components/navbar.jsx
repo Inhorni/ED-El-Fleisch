@@ -10,7 +10,7 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="bg-red-700 p-4 absolute w-full items-center">
+    <nav className="bg-yellow-500 p-4 absolute w-full items-center">
       <div className="container mx-auto flex justify-between items-center relative">
         {/* Left side menu for desktop */}
         <ul className="hidden md:flex space-x-8 text-white">
@@ -23,17 +23,11 @@ const Navbar = () => {
           <li className="hover:text-black">
             <a href="/produktpalette">Produkte</a>
           </li>
-          <li className="hover:text-black">
-            <a href="/gewurze">Gewürze</a>
-          </li>
-          <li className="hover:text-black">
-            <a href="#standort">Lieferanten</a>
-          </li>
         </ul>
 
         {/* Centered logo */}
         <div className="absolute left-1/2 transform -translate-x-1/2">
-          <div className="p-2 pt-[100px] bg-red-700 bg-clip-content">
+          <div className="p-2 pt-[100px] bg-yellow-500 bg-clip-content">
             <img
               src={placeholder.src} // Replace with your logo
               alt="Logo"

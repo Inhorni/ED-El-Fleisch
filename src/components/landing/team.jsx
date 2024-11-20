@@ -2,7 +2,7 @@
 import React from "react";
 import Title from "@//title/title";
 import { motion,useInView,useMotionValue,useScroll,useTransform } from "framer-motion";
-import team from '@/assets/team.jpeg';
+import team from '@/assets/team.jpg';
 
 function CareerSection() {
   return (
